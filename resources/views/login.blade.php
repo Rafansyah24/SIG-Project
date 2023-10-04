@@ -104,13 +104,13 @@
                                 <div class="col-lg-12">
                                     <div class="form-group mb-3">
                                         <label class="form-label text-dark" for="email">Email</label>
-                                        <input type="email" value=" {{ old('email')}} " name="email" class="form-control">
+                                        <input type="email" value=" {{ old('email')}} " name="email" class="form-control" placeholder="Input email addres">
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group mb-3">
                                         <label class="form-label text-dark" for="password">Password</label>
-                                        <input type="password" name="password" class="form-control" value="{{ old('password')}}">
+                                        <input type="password" name="password" class="form-control" value="{{ old('password')}}" placeholder="Input password">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 text-center">

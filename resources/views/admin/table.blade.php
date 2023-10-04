@@ -1,6 +1,6 @@
 @extends('layout.app-admin')
 
-@section('title', 'table')
+@section('title', 'Monitoring')
 
 @section('content1')
 

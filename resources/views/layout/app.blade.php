@@ -56,7 +56,7 @@
                     <div class="navbar-brand">
                         <!-- Logo icon -->
                         <a href="index.html">
-                            <img src="{{asset('../src/assets/images/freedashDark.svg')}}" alt="" class="img-fluid">
+                            <img src="{{asset('../src/assets/images/logo-synxchro.png')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                     <!-- ============================================================== -->

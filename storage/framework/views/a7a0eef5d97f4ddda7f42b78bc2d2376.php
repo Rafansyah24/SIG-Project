@@ -1,6 +1,6 @@
 
 
-<?php $__env->startSection('title', 'table'); ?>
+<?php $__env->startSection('title', 'Monitoring'); ?>
 
 <?php $__env->startSection('content1'); ?>
 

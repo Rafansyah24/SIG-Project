@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'table')
+@section('title', 'Monitoring')
 
 @section('content1')
 
@@ -17,20 +17,6 @@ data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="fu
                     <div class="card-body">
                         <div class="d-flex align-items-center mb-4">
                             <h4 class="card-title">Table Monitoring 1</h4>
-                            <div class="ms-auto">
-                                <div class="dropdown sub-dropdown">
-                                    <button class="btn btn-link text-muted dropdown-toggle" type="button"
-                                        id="dd1" data-bs-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <i data-feather="more-vertical"></i>
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dd1">
-                                        <a class="dropdown-item" href="#">Insert</a>
-                                        <a class="dropdown-item" href="#">Update</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="table-responsive">
                             @if (count($index) > 0)

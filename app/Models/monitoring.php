@@ -22,4 +22,5 @@ class monitoring extends Model
         'isproceed',
     ];
 
+
 }

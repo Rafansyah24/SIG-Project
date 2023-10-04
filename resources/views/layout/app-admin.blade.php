@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <title>@yield('title')</title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('../src/assets/images/favicon.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('../src/assets/images/logo-synxchro2.png')}}">
     <title>Freedash Template - The Ultimate Multipurpose admin template</title>
     <!-- Custom CSS -->
     <link href="{{asset('../src/assets/extra-libs/c3/c3.min.css')}}" rel="stylesheet">
@@ -56,7 +56,7 @@
                     <div class="navbar-brand">
                         <!-- Logo icon -->
                         <a href="index.html">
-                            <img src="{{asset('../src/assets/images/freedashDark.svg')}}" alt="" class="img-fluid">
+                            <img src="{{asset('../src/assets/images/logo-synxchro.png')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                     <!-- ============================================================== -->
@@ -142,7 +142,7 @@
                         <li class="list-divider"></li>
                         <li class="nav-small-cap"><span class="hide-menu">Option</span></li>
                         
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href='logout'
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href='/logout'
                                 aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span
                                     class="hide-menu">Logout</span></a></li>
                                 </li>

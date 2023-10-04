@@ -1,6 +1,6 @@
 @extends('layout.app-usermanagement')
 
-@section('title', 'table')
+@section('title', 'User Management')
 
 @section('content1')
 

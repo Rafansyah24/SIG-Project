@@ -12,9 +12,9 @@ class MonitoringController extends Controller
     /**
      * Display a listing of the resource.
      */ 
-    public function index(Request $request)
+    public function table(Request $request)
     {
-        
+
         if($request->has('search')){
             $index = monitoring::where('id','LIKE','%' .$request->search. '%')->get(); // Menambahkan metode get() untuk mengeksekusi query
         }else{
@@ -25,7 +25,7 @@ class MonitoringController extends Controller
     }
 
 
-    public function index_admin(Request $request)
+    public function table_admin(Request $request)
     {
 
         if($request->has('search')){
@@ -38,7 +38,7 @@ class MonitoringController extends Controller
 
     }
 
-    public function user_table(Request $request)
+    public function usermanagement_table(Request $request)
     {
 
         if($request->has('search')){
@@ -50,8 +50,16 @@ class MonitoringController extends Controller
         return view('usermanagement.listuser', ['user_table' => $user_table,  'request' => $request]);
 
     }
+ 
 
+    public function index()
+    {
+        $totalData = monitoring::count();
+        $totalAdmin = User::where('role','0')->count();   
 
+        return redirect('user.dashboard',compact('totalData'));
+    }
 
+    
 
 }

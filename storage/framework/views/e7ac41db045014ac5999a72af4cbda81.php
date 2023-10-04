@@ -56,7 +56,7 @@
                     <div class="navbar-brand">
                         <!-- Logo icon -->
                         <a href="index.html">
-                            <img src="<?php echo e(asset('../src/assets/images/freedashDark.svg')); ?>" alt="" class="img-fluid">
+                            <img src="<?php echo e(asset('../src/assets/images/logo-synxchro.png')); ?>" alt="" class="img-fluid">
                         </a>
                     </div>
                     <!-- ============================================================== -->
@@ -136,7 +136,6 @@
 
 
                         <li class="list-divider"></li>
-                        <li class="nav-small-cap"><span class="hide-menu">Option</span></li>
                         
                         <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href='logout'
                                 aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span

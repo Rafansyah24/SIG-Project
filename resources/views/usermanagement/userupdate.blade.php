@@ -23,9 +23,9 @@
                                 <label for="exampleFormControlInput1" class="form-label">Name</label>
                                 <input type="text" class="form-control" name="name" value="{{ $data->name }}" id="exampleFormControlInput1" placeholder="Insert Name" required>
                             </div>
-                            <label for="exampleFormControlInput1" class="form-label">Level</label>
+                            <label for="exampleFormControlInput1" class="form-label">Role</label>
                             <select class="form-select mb-3" aria-label="Default select example" name="level" required>
-                                <option selected>{{ $data->level }}</option>
+                                <option selected>{{ $data->role }}</option>
                                 <option value="admin">Admin</option>
                                 <option value="user">User</option>
                             </select>

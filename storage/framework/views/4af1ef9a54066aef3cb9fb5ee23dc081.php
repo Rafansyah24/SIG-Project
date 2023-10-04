@@ -22,8 +22,7 @@
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dd1">
                                     <a class="dropdown-item" href="<?php echo e(route('users/add/new')); ?>">Insert</a>
-                                    <a class="dropdown-item" href="#">Update</a>
-                                    <a class="dropdown-item" href="#">Delete</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -37,7 +36,7 @@
                             <table class="table table-hover">
                                 <thead>
                                     <tr>
-                                        <th class="text-center">USER ID</th>
+                                        <th class="text-center">ID</th>
                                         <th class="text-center">Name</th>
                                         <th class="text-center">Role</th>
                                         <th class="text-center">Email</th>

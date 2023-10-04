@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <title>@yield('title')</title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('../src/assets/images/logo-synxchro2.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('../src/assets/images/favicon.png')}}">
     <title>Freedash Template - The Ultimate Multipurpose admin template</title>
     <!-- Custom CSS -->
     <link href="{{asset('../src/assets/extra-libs/c3/c3.min.css')}}" rel="stylesheet">
